@@ -1,0 +1,22 @@
+{
+  "name": "v2",
+  "homepage": "https://github.com/Kappiere/GolFinder",
+  "authors": [
+    "Kevin Terrone <kevint97@hotmail.it>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3"
+  }
+}
