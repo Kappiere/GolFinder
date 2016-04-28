@@ -1,0 +1,29 @@
+.button-partite{
+	width: 70%;
+	border:none;
+	padding: 7px 30px;
+	font-size: 16px;
+	color: white;
+	background-color: #4CAF50;
+	border-radius: 8px;
+
+}
+.panel-default > .panel-heading{
+	background-color: #4CAF50;
+}
+.panel-title{
+	color: white;
+}
+a:focus {
+    outline: none;
+}
+.p-partite-sinistra{
+	display:inline-block; 
+	float:left
+
+}
+.p-partite-destra{
+	display:inline-block; 
+	float:right
+
+}

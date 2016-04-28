@@ -38,18 +38,17 @@ $y=mysqli_fetch_array($x);
 		                    INSERT INTO gol.squadra VALUES(
 		                    '',
 		                    '$nome',
-		                    $posizione,
-		                    $punti,
+		                    '$posizione',
+		                    '$punti',
 		                    '$campionato',
 		                    '$nazione',
-		                    $ult_partita,
-		                    $quotazione);";
+		                    '$ult_partita',
+		                    '$quotazione');";
 		if($conn->query($Query_Instruction)===TRUE){
-            echo("ciao");
+		Header("location:Home_Page_Admin.php");
 		}
 		else{echo("fail");
 	    }
-		//Header("location:Home_Page_Admin.php");
      
 	
 	

@@ -1,7 +1,11 @@
 <html>
  <head>
   <title>GolFinder</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
  </head>
  <body>
  	<form action='HOME.php'class="form-horizontal" role"form">
